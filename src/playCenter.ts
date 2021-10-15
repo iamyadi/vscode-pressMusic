@@ -53,7 +53,7 @@ export default class PlayCenter{
     }
     play(text: string){
         if(text === 'reminderTime') {
-            player.play(`./music/test.mp3`, {}, (err: any)=>{
+            player.play(`./music/reminder.mp3`, {}, (err: any)=>{
                 console.log('err:', err);
             });
             return;
